@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.femtoframework.util</groupId>
+        <artifactId>femto-parent</artifactId>
+        <version>7.1.0</version>
+    </parent>
+
+    <groupId>org.femtoframework.comp</groupId>
+    <artifactId>femto-comp</artifactId>
+    <name>femto-comp</name>
+    <version>7.0.0-SNAPSHOT</version>
+
+    <description>Femto Components</description>
+    <url>https://github.com/femtoframework/femto-comp</url>
+    <organization>
+        <name>FemtoFraemwork</name>
+        <url>https://github.com/femtoframework/</url>
+    </organization>
+
+    <modules>
+        <module>ffs</module>
+    </modules>
+
+    <!-- SCM configurations to allow maven updates to source control.
+    E.g.: org.apache.maven.plugins:maven-release-plugin can create and update release tags to your git repo -->
+    <scm>
+        <connection>scm:git:git@github.com:femtoframework/femto-comp.git</connection>
+        <developerConnection>scm:git:git@github.com:femtoframework/femto-comp.git</developerConnection>
+        <url>https://github.com/femtoframework/femto-comp.git</url>
+        <tag>v7.0.0</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/femtoframework/femto-comp/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>shaoxt</id>
+            <name>Sheldon Shao</name>
+            <url>https://www.linkedin.com/in/sheldon-shao-1330711b/</url>
+            <roles>
+                <role>Administrator</role>
+                <role>Developer</role>
+            </roles>
+            <properties>
+                <picUrl>https://avatars2.githubusercontent.com/u/1782780</picUrl>
+            </properties>
+        </developer>
+    </developers>
+</project>
